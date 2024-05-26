@@ -2,11 +2,11 @@
 ### About:
 - Repo for Company BlackList based on Data Gathered from {Forums, Business Rating Websites, Reviews}
 
-### Criteria:
-* Fraud,
-* Scams,
-* Spammy,
-* Inappropriate collection of PSI (Personally Sensitive Information),
+* Criteria:
+    * Fraud,
+    * Scams,
+    * Spammy,
+    * Inappropriate collection of PSI (Personally Sensitive Information),
 
 ### Purpose:
 - Personal List
@@ -15,3 +15,9 @@
 ### Current working versions (for):
 - Linkedin,
 - Indeed,
+
+<!-- 
+IGNORE:
+    "modified [current] () generated_filter_list"
+    "added [current] () generated_filter_list"
+-->
