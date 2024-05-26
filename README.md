@@ -1,7 +1,8 @@
 ## COMPANY_FILTER_PROGRAM
 ### About:
 - Repo for Company BlackList based on Data Gathered from {Forums, Business Rating Websites, Reviews}
-- Criteria:
+
+### Criteria:
 * Fraud,
 * Scams,
 * Spammy,
