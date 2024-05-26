@@ -7,7 +7,7 @@
 * Spammy,
 * Inappropriate collection of PSI (Personally Sensitive Information),
 
-### Note:
+### Purpose:
 - Personal List
 - Utilized for AdBlock programs/extensions to filter out companies.
 
