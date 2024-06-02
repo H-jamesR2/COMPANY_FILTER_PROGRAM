@@ -7,6 +7,7 @@
     * Scams,
     * Spammy,
     * Inappropriate collection of PSI (Personally Sensitive Information),
+    * Other,
 
 ### Purpose:
 - Personal List
