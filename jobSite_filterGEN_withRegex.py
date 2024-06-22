@@ -48,7 +48,7 @@ def create_company_filter_list():
         return
 
     print("Which Job Site are you trying to generate a company filter list for?")
-    job_sites = ["Linkedin", "Indeed", "ZipRecruiter", "Glassdoor"]
+    job_sites = ["Linkedin", "Indeed", "ZipRecruiter", "Glassdoor", "GoogleJobs"]
     for i, site in enumerate(job_sites, 1):
         print(f"({i}) {site}")
 
@@ -89,6 +89,11 @@ def create_company_filter_list():
         "Glassdoor": [
             'glassdoor.com##.jobListing:has(a[href*="/{pattern}/"])',
             'glassdoor.com##.companyInfo:has(a[href*="/{pattern}/"])'
+        ],
+        "GoogleJobs":[
+            '! Block job listings for multiple companies on Google Jobs',
+            'google.com##li.iFjolb.gws-plugins-horizon-jobs__li-ed:has-text((/({pattern})/i))',
+            ""
         ]
     }
 
