@@ -16,6 +16,7 @@
 ### Current working versions (for):
 - Linkedin,
 - Indeed,
+- Google Jobs,
 
 <!-- 
 IGNORE:
