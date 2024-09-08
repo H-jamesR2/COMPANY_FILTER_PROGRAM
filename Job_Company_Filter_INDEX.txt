@@ -178,3 +178,7 @@ Velocity MSC
 Joinrs
 Digital Janet
 StatusNeo
+RemoteWorker CA
+Zortech
+Marigold
+i4pro
