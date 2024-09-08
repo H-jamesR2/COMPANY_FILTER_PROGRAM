@@ -182,3 +182,4 @@ RemoteWorker CA
 Zortech
 Marigold
 i4pro
+Dice
