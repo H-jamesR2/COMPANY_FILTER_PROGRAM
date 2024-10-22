@@ -74,7 +74,10 @@ def create_company_filter_list():
             'linkedin.com##li.reusable-search__result-container:has(div.entity-result__primary-subtitle:has-text(/({pattern})/i))',
             "",
             "! Linkedin Job Feed",
-            'linkedin.com##li.ember-view.jobs-search-results__list-item:has(span.job-card-container__primary-description:has-text(/({pattern})/i))'
+            'linkedin.com##li.ember-view.jobs-search-results__list-item:has(span.job-card-container__primary-description:has-text(/({pattern})/i))',
+            "",
+            "! Linkedin Filter-Out: Removed from job feed (Removed, Applied)",
+            'linkedin.com##div.artdeco-entity-lockup__caption:has(span:has-text(We won’t show you this job again))'
         ],
         "Indeed": [
             "! Indeed Job Search Feed",
