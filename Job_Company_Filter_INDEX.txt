@@ -198,3 +198,4 @@ ZapCom Group
 Dark Matter Technologies
 Nurdsoft
 Alphanumeric Systems
+Canonical

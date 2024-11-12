@@ -97,6 +97,7 @@ def create_company_filter_list():
         "GoogleJobs":[
             '! Block job listings for multiple companies on Google Jobs',
             'google.com##li.iFjolb.gws-plugins-horizon-jobs__li-ed:has-text((/({pattern})/i))',
+            'www.google.com##div.EimVGf:has(div.wHYlTd.MKCbgd:has-text(/({pattern})/i))',
             ""
         ]
     }
