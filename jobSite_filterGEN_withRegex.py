@@ -80,7 +80,10 @@ def create_company_filter_list():
             'linkedin.com##li.ember-view.jobs-search-results__list-item:has(div.artdeco-entity-lockup__caption:has(span:has-text(We won’t show you this job again)))',
             'linkedin.com##li.ember-view:has(div.job-card-container__footer-item--highlighted:has-text(We won’t show you this job again))',
             '! linkedin.com##li.ember-view.jobs-search-results__list-item:has(ul.job-card-list__footer-wrapper:has(li.job-card-container__footer-job-state:has-text(Applied)))',
-            'linkedin.com##li:has(div.job-card-job-posting-card-wrapper__dismiss-text:has-text(We won’t recommend this job anymore.))'
+            'linkedin.com##li:has(div.job-card-job-posting-card-wrapper__dismiss-text:has-text(We won’t recommend this job anymore.))',
+            "",
+            '! Block all SonicJobs “EasyApply ATS” domains',
+            '||easyapply-ats.com^$document'
         ],
         "Indeed": [
             "! Indeed Job Search Feed",
