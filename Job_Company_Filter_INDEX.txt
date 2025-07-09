@@ -232,3 +232,6 @@ Simulmedia
 Global-e
 Candex
 Helix Recruitment Consulting
+Jobright.ai
+BJAK
+Taskify
